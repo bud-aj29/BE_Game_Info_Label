@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Chunk borders and game info label on screen [chunk borders provided by \u00a7o\u00a75 RavinMaddHatter\u00a7r]",
+		"name": "Chunk Borders & Game Info Label",
+		"uuid": "e27efd71-9361-4d30-92b8-03792b46545f",
+		"version": [ 0,1,5 ],
+		"min_engine_version": [ 1, 18, 10 ]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "ce2f052e-fbd5-455a-8927-d23f58f94f35",
+			"version": [0, 0, 1]
+		}
+	]
+}
+

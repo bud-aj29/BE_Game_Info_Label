@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+
+    "controller.render.info_screen_cardinal": {
+    
+      "arrays": {
+        "textures": {
+          "Array.text": [
+	  //addon texture array
+	  
+		"Texture.info_screen_cardinal_1",
+		"Texture.info_screen_cardinal_2",
+		"Texture.info_screen_cardinal_3",
+		"Texture.info_screen_cardinal_4"
+
+	  //end addon texture array
+          ]
+        }
+      },
+    
+      "geometry": "geometry.info_screen_cardinal",
+      "materials": [ { "*": "Material.info_screen" } ],
+      "ignore_lighting":true,
+      "textures": [ "Array.text[ variable.info_screen_var_cardinal ]" ],
+      "part_visibility": [ { "*": true }, { "head": false } ]
+
+    }
+  }
+}

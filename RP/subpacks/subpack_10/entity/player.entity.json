@@ -1,0 +1,486 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "materials": {
+	//addon materials
+	"chunk": "entity_alphablend",
+	"info_screen": "entity_alphablend"
+	//end addon materials
+      },
+      "textures": {
+	//addon textures
+	"chunk": "textures/entity/chunk",
+	"info_screen_biome_0": "textures/addon/biome/biome_0",
+	"info_screen_biome_1": "textures/addon/biome/biome_1",
+	"info_screen_biome_2": "textures/addon/biome/biome_2",
+	"info_screen_biome_3": "textures/addon/biome/biome_3",
+	"info_screen_biome_4": "textures/addon/biome/biome_4",
+	"info_screen_biome_5": "textures/addon/biome/biome_5",
+	"info_screen_biome_6": "textures/addon/biome/biome_6",
+	"info_screen_biome_7": "textures/addon/biome/biome_7",
+	"info_screen_biome_8": "textures/addon/biome/biome_8",
+	"info_screen_biome_9": "textures/addon/biome/biome_9",
+	"info_screen_biome_10": "textures/addon/biome/biome_10",
+	"info_screen_biome_11": "textures/addon/biome/biome_11",
+	"info_screen_biome_12": "textures/addon/biome/biome_12",
+	"info_screen_biome_13": "textures/addon/biome/biome_13",
+	"info_screen_biome_14": "textures/addon/biome/biome_14",
+	"info_screen_biome_15": "textures/addon/biome/biome_15",
+	"info_screen_biome_16": "textures/addon/biome/biome_16",
+	"info_screen_biome_17": "textures/addon/biome/biome_17",
+	"info_screen_biome_18": "textures/addon/biome/biome_18",
+	"info_screen_biome_19": "textures/addon/biome/biome_19",
+	"info_screen_biome_20": "textures/addon/biome/biome_20",
+	"info_screen_biome_21": "textures/addon/biome/biome_21",
+	"info_screen_biome_22": "textures/addon/biome/biome_22",
+	"info_screen_biome_23": "textures/addon/biome/biome_23",
+	"info_screen_biome_24": "textures/addon/biome/biome_24",
+	"info_screen_biome_25": "textures/addon/biome/biome_25",
+	"info_screen_biome_26": "textures/addon/biome/biome_26",
+	"info_screen_biome_27": "textures/addon/biome/biome_27",
+	"info_screen_biome_28": "textures/addon/biome/biome_28",
+	"info_screen_biome_29": "textures/addon/biome/biome_29",
+	"info_screen_biome_30": "textures/addon/biome/biome_30",
+	"info_screen_biome_31": "textures/addon/biome/biome_31",
+	"info_screen_biome_32": "textures/addon/biome/biome_32",
+	"info_screen_biome_33": "textures/addon/biome/biome_33",
+	"info_screen_biome_34": "textures/addon/biome/biome_34",
+	"info_screen_biome_35": "textures/addon/biome/biome_35",
+	"info_screen_biome_36": "textures/addon/biome/biome_36",
+	"info_screen_biome_37": "textures/addon/biome/biome_37",
+	"info_screen_biome_38": "textures/addon/biome/biome_38",
+	"info_screen_biome_39": "textures/addon/biome/biome_39",
+	"info_screen_biome_40": "textures/addon/biome/biome_40",
+	"info_screen_biome_41": "textures/addon/biome/biome_41",
+	"info_screen_biome_42": "textures/addon/biome/biome_42",
+	"info_screen_biome_43": "textures/addon/biome/biome_43",
+	"info_screen_biome_44": "textures/addon/biome/biome_44",
+	"info_screen_biome_45": "textures/addon/biome/biome_45",
+	"info_screen_biome_46": "textures/addon/biome/biome_46",
+	"info_screen_biome_47": "textures/addon/biome/biome_47",
+	"info_screen_biome_48": "textures/addon/biome/biome_48",
+	"info_screen_biome_49": "textures/addon/biome/biome_49",
+	"info_screen_biome_50": "textures/addon/biome/biome_50",
+	"info_screen_biome_51": "textures/addon/biome/biome_51",
+	"info_screen_biome_52": "textures/addon/biome/biome_52",
+	"info_screen_biome_53": "textures/addon/biome/biome_53",
+	"info_screen_biome_54": "textures/addon/biome/biome_54",
+	"info_screen_biome_55": "textures/addon/biome/biome_55",
+	"info_screen_biome_56": "textures/addon/biome/biome_56",
+	"info_screen_biome_57": "textures/addon/biome/biome_57",
+	"info_screen_biome_58": "textures/addon/biome/biome_58",
+	"info_screen_biome_59": "textures/addon/biome/biome_59",
+	"info_screen_biome_60": "textures/addon/biome/biome_60",
+	"info_screen_biome_61": "textures/addon/biome/biome_61",
+	"info_screen_biome_62": "textures/addon/biome/biome_62",
+	"info_screen_biome_63": "textures/addon/biome/biome_63",
+	"info_screen_biome_64": "textures/addon/biome/biome_64",
+	"info_screen_biome_65": "textures/addon/biome/biome_65",
+	"info_screen_biome_66": "textures/addon/biome/biome_66",
+	"info_screen_biome_67": "textures/addon/biome/biome_67",
+	"info_screen_biome_68": "textures/addon/biome/biome_68",
+	"info_screen_biome_69": "textures/addon/biome/biome_69",
+	"info_screen_biome_70": "textures/addon/biome/biome_70",
+	"info_screen_biome_71": "textures/addon/biome/biome_71",
+	"info_screen_biome_72": "textures/addon/biome/biome_72",
+	"info_screen_biome_73": "textures/addon/biome/biome_73",
+	"info_screen_biome_74": "textures/addon/biome/biome_74",
+	"info_screen_biome_75": "textures/addon/biome/biome_75",
+	
+	"info_screen_cardinal_1": "textures/addon/cardinal/cardinal_1",
+	"info_screen_cardinal_2": "textures/addon/cardinal/cardinal_2",
+	"info_screen_cardinal_3": "textures/addon/cardinal/cardinal_3",
+	"info_screen_cardinal_4": "textures/addon/cardinal/cardinal_4",
+	
+	"info_screen_number_8pt_0": "textures/addon/number/number_8pt_0",
+	"info_screen_number_8pt_1": "textures/addon/number/number_8pt_1",
+	"info_screen_number_8pt_2": "textures/addon/number/number_8pt_2",
+	"info_screen_number_8pt_3": "textures/addon/number/number_8pt_3",
+	"info_screen_number_8pt_4": "textures/addon/number/number_8pt_4",
+	"info_screen_number_8pt_5": "textures/addon/number/number_8pt_5",
+	"info_screen_number_8pt_6": "textures/addon/number/number_8pt_6",
+	"info_screen_number_8pt_7": "textures/addon/number/number_8pt_7",
+	"info_screen_number_8pt_8": "textures/addon/number/number_8pt_8",
+	"info_screen_number_8pt_9": "textures/addon/number/number_8pt_9",
+	
+	"info_screen_number_16pt_0": "textures/addon/number/number_16pt_0",
+	"info_screen_number_16pt_1": "textures/addon/number/number_16pt_1",
+	"info_screen_number_16pt_2": "textures/addon/number/number_16pt_2",
+	"info_screen_number_16pt_3": "textures/addon/number/number_16pt_3",
+	"info_screen_number_16pt_4": "textures/addon/number/number_16pt_4",
+	"info_screen_number_16pt_5": "textures/addon/number/number_16pt_5",
+	"info_screen_number_16pt_6": "textures/addon/number/number_16pt_6",
+	"info_screen_number_16pt_7": "textures/addon/number/number_16pt_7",
+	"info_screen_number_16pt_8": "textures/addon/number/number_16pt_8",
+	"info_screen_number_16pt_9": "textures/addon/number/number_16pt_9",
+
+	"info_screen_character_8pt_period": 			"textures/addon/character/character_8pt_period",
+	"info_screen_character_8pt_colon": 			"textures/addon/character/character_8pt_colon",
+	"info_screen_character_8pt_meter_sec": 		"textures/addon/character/character_8pt_meter_sec",
+	"info_screen_character_8pt_kilometer": 		"textures/addon/character/character_8pt_kilometer",
+	"info_screen_character_8pt_am": 			"textures/addon/character/character_8pt_am",
+	"info_screen_character_8pt_pm": 			"textures/addon/character/character_8pt_pm",
+	"info_screen_character_8pt_space": 			"textures/addon/character/character_8pt_space",
+	"info_screen_character_8pt_fps": 			"textures/addon/character/character_8pt_fps",
+	"info_screen_character_8pt_nwcorner_x": 		"textures/addon/character/character_8pt_nwcorner_x",
+	"info_screen_character_8pt_chunknum_z": 		"textures/addon/character/character_8pt_chunknum_z",
+	"info_screen_character_8pt_chunknum_x": 		"textures/addon/character/character_8pt_chunknum_x",
+	"info_screen_character_8pt_minus": 			"textures/addon/character/character_8pt_minus",
+	"info_screen_character_8pt_tps": 			"textures/addon/character/character_8pt_tps",
+	"info_screen_character_8pt_light": 			"textures/addon/character/character_8pt_light",
+	"info_screen_character_8pt_day": 			"textures/addon/character/character_8pt_day",
+	"info_screen_character_8pt_hours": 			"textures/addon/character/character_8pt_hours",
+	"info_screen_character_8pt_nethercoords": 		"textures/addon/character/character_8pt_nethercoords",
+	"info_screen_character_8pt_overworldcoords": 	"textures/addon/character/character_8pt_overworldcoords",
+
+	"info_screen_character_16pt_colon": 		"textures/addon/character/character_16pt_colon"
+	//end addon textures
+      },
+      "geometry": {
+	//addon geometry
+	"chunk": 					"geometry.chunk",
+	
+	"info_screen_biome": 		"geometry.info_screen_biome",
+	
+	"info_screen_cardinal": 		"geometry.info_screen_cardinal",
+	
+	"info_screen_clock_ampm": 	"geometry.info_screen_clock_ampm",
+	"info_screen_clock_colon": 		"geometry.info_screen_clock_colon",
+	"info_screen_clock_h_0": 		"geometry.info_screen_clock_h_0",
+	"info_screen_clock_h_10": 		"geometry.info_screen_clock_h_10",
+	"info_screen_clock_m_0": 		"geometry.info_screen_clock_m_0",
+	"info_screen_clock_m_10": 	"geometry.info_screen_clock_m_10",
+	
+	"info_screen_distance_10": 	"geometry.info_screen_distance_10",
+	"info_screen_distance_0": 		"geometry.info_screen_distance_0",
+	"info_screen_distance_00": 	"geometry.info_screen_distance_00",
+	"info_screen_distance_point": 	"geometry.info_screen_distance_point",
+	"info_screen_distance_unit": 	"geometry.info_screen_distance_unit",
+	
+	"info_screen_speed_10": 		"geometry.info_screen_speed_10",
+	"info_screen_speed_0": 		"geometry.info_screen_speed_0",
+	"info_screen_speed_00": 		"geometry.info_screen_speed_00",
+	"info_screen_speed_point": 	"geometry.info_screen_speed_point",
+	"info_screen_speed_unit": 		"geometry.info_screen_speed_unit",
+	
+	"info_screen_fps_10": 		"geometry.info_screen_fps_10",
+	"info_screen_fps_0": 			"geometry.info_screen_fps_0",
+	"info_screen_fps_unit": 		"geometry.info_screen_fps_unit",
+	
+	"info_screen_tps_10": 		"geometry.info_screen_tps_10",
+	"info_screen_tps_0": 			"geometry.info_screen_tps_0",
+	"info_screen_tps_unit": 		"geometry.info_screen_tps_unit",
+	
+	"info_screen_light_10": 		"geometry.info_screen_light_10",
+	"info_screen_light_0": 		"geometry.info_screen_light_0",
+	"info_screen_light_unit": 		"geometry.info_screen_light_unit",
+	
+	"info_screen_day_1000": 		"geometry.info_screen_day_1000",
+	"info_screen_day_100": 		"geometry.info_screen_day_100",
+	"info_screen_day_10": 		"geometry.info_screen_day_10",
+	"info_screen_day_0": 		"geometry.info_screen_day_0",
+	"info_screen_day_unit": 		"geometry.info_screen_day_unit",
+	
+	"info_screen_hours_100": 		"geometry.info_screen_hours_100",
+	"info_screen_hours_10": 		"geometry.info_screen_hours_10",
+	"info_screen_hours_0": 		"geometry.info_screen_hours_0",
+	"info_screen_hours_00": 		"geometry.info_screen_hours_00",
+	"info_screen_hours_point": 	"geometry.info_screen_hours_point",
+	"info_screen_hours_unit": 		"geometry.info_screen_hours_unit",
+	
+	"info_screen_chunknum_x_100": 	"geometry.info_screen_chunknum_x_100",
+	"info_screen_chunknum_x_10": 		"geometry.info_screen_chunknum_x_10",
+	"info_screen_chunknum_x_0": 		"geometry.info_screen_chunknum_x_0",
+	"info_screen_chunknum_x_neg": 	"geometry.info_screen_chunknum_x_neg",
+	"info_screen_chunknum_x_unit": 	"geometry.info_screen_chunknum_x_unit",
+	"info_screen_chunknum_z_100": 	"geometry.info_screen_chunknum_z_100",
+	"info_screen_chunknum_z_10": 		"geometry.info_screen_chunknum_z_10",
+	"info_screen_chunknum_z_0": 		"geometry.info_screen_chunknum_z_0",
+	"info_screen_chunknum_z_neg": 	"geometry.info_screen_chunknum_z_neg",
+	"info_screen_chunknum_z_unit": 	"geometry.info_screen_chunknum_z_unit",
+	
+	"info_screen_nethercoords_x_1000": 	"geometry.info_screen_nethercoords_x_1000",
+	"info_screen_nethercoords_x_100": 	"geometry.info_screen_nethercoords_x_100",
+	"info_screen_nethercoords_x_10": 	"geometry.info_screen_nethercoords_x_10",
+	"info_screen_nethercoords_x_0": 	"geometry.info_screen_nethercoords_x_0",
+	"info_screen_nethercoords_x_neg": 	"geometry.info_screen_nethercoords_x_neg",
+	"info_screen_nethercoords_x_unit": 	"geometry.info_screen_nethercoords_x_unit",
+	"info_screen_nethercoords_z_1000": 	"geometry.info_screen_nethercoords_z_1000",
+	"info_screen_nethercoords_z_100": 	"geometry.info_screen_nethercoords_z_100",
+	"info_screen_nethercoords_z_10": 	"geometry.info_screen_nethercoords_z_10",
+	"info_screen_nethercoords_z_0": 	"geometry.info_screen_nethercoords_z_0",
+	"info_screen_nethercoords_z_neg": 	"geometry.info_screen_nethercoords_z_neg",
+	"info_screen_nethercoords_z_unit": 	"geometry.info_screen_nethercoords_z_unit",
+	
+	"info_screen_overworldcoords_x_1000": 	"geometry.info_screen_overworldcoords_x_1000",
+	"info_screen_overworldcoords_x_100": 	"geometry.info_screen_overworldcoords_x_100",
+	"info_screen_overworldcoords_x_10": 		"geometry.info_screen_overworldcoords_x_10",
+	"info_screen_overworldcoords_x_0": 		"geometry.info_screen_overworldcoords_x_0",
+	"info_screen_overworldcoords_x_neg": 	"geometry.info_screen_overworldcoords_x_neg",
+	"info_screen_overworldcoords_x_unit": 	"geometry.info_screen_overworldcoords_x_unit",
+	"info_screen_overworldcoords_z_1000": 	"geometry.info_screen_overworldcoords_z_1000",
+	"info_screen_overworldcoords_z_100": 	"geometry.info_screen_overworldcoords_z_100",
+	"info_screen_overworldcoords_z_10": 		"geometry.info_screen_overworldcoords_z_10",
+	"info_screen_overworldcoords_z_0": 		"geometry.info_screen_overworldcoords_z_0",
+	"info_screen_overworldcoords_z_neg": 	"geometry.info_screen_overworldcoords_z_neg",
+	"info_screen_overworldcoords_z_unit": 	"geometry.info_screen_overworldcoords_z_unit",
+	
+	"info_screen_nwcorner_x_10": 	"geometry.info_screen_nwcorner_x_10",
+	"info_screen_nwcorner_x_0": 	"geometry.info_screen_nwcorner_x_0",
+	"info_screen_nwcorner_x_unit": 	"geometry.info_screen_nwcorner_x_unit",
+	"info_screen_nwcorner_z_10": 	"geometry.info_screen_nwcorner_z_10",
+	"info_screen_nwcorner_z_0": 	"geometry.info_screen_nwcorner_z_0",
+	"info_screen_nwcorner_z_unit": 	"geometry.info_screen_nwcorner_z_unit",
+	
+	"info_screen_timer_h_0": 		"geometry.info_screen_timer_h_0",
+	"info_screen_timer_m_10": 	"geometry.info_screen_timer_m_10",
+	"info_screen_timer_m_0": 		"geometry.info_screen_timer_m_0",
+	"info_screen_timer_s_10": 		"geometry.info_screen_timer_s_10",
+	"info_screen_timer_s_0": 		"geometry.info_screen_timer_s_0",
+	"info_screen_timer_ms_10": 	"geometry.info_screen_timer_ms_10",
+	"info_screen_timer_ms_0": 	"geometry.info_screen_timer_ms_0",
+	"info_screen_timer_colon_1": 	"geometry.info_screen_timer_colon_1",
+	"info_screen_timer_colon_2": 	"geometry.info_screen_timer_colon_2"	
+	//end addon geometry
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.helmet_layer_visible = 1.0;",
+          "variable.leg_layer_visible = 1.0;",
+          "variable.boot_layer_visible = 1.0;",
+          "variable.chest_layer_visible = 1.0;",
+          "variable.attack_body_rot_y = Math.sin(360*Math.sqrt(variable.attack_time)) * 5.0;",
+          "variable.tcos0 = (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.first_person_rotation_factor = math.sin((1 - variable.attack_time) * 180.0);",
+          "variable.hand_bob = query.life_time < 0.01 ? 0.0 : variable.hand_bob + ((query.is_on_ground && query.is_alive ? math.clamp(math.sqrt(math.pow(query.position_delta(0), 2.0) + math.pow(query.position_delta(2), 2.0)), 0.0, 0.1) : 0.0) - variable.hand_bob) * 0.02;",
+          "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
+          "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;" , //add comma for addon
+	  
+	  //addon pre_animation
+	  "variable.chunk_x = (8-math.mod(query.position(0),16) + (query.position(0) <= 0 ? -16))*16;",
+	  "variable.chunk_y = (1.6-math.mod(query.position(1),16) + (query.position(1) <= 0 ? -16))*16;",
+	  "variable.chunk_z = (-8+math.mod(query.position(2),16) + (query.position(2) <= 0 ? 16))*16;",
+	  
+	  "variable.info_screen_var_show_item = query.get_equipped_item_name(1) == 'arrow';",
+	  "variable.info_screen_var_full_show = variable.is_first_person && !query.is_gliding && !query.is_swimming && !query.is_riding && variable.info_screen_var_show_item;",
+	  "variable.info_screen_var_full_show_always = variable.is_first_person && !query.is_gliding && !query.is_swimming && !query.is_riding;",
+	  "variable.info_screen_var_ui_show = query.is_in_ui && !query.is_gliding && !variable.info_screen_var_show_item;",
+	  
+	  "variable.info_screen_var_biome = query.variant;",
+	  
+	  "variable.info_screen_var_cardinal = query.cardinal_facing_2d;",
+	  
+	  "variable.info_screen_var_clock_ampm = query.time_of_day*2;",
+	  "variable.info_screen_var_clock_h_0 = query.time_of_day *24;",
+	  "variable.info_screen_var_clock_h_10 = query.time_of_day *24;",
+	  "variable.info_screen_var_clock_m_0 = 0;", //count by ten minutes
+	  //"variable.info_screen_var_clock_m_0 = query.time_of_day *1440;", //count by minutes
+	  "variable.info_screen_var_clock_m_10 = query.time_of_day *144;",
+	  
+	  "variable.info_screen_var_distance_10 = (query.walk_distance*1.65)/10000;",
+	  "variable.info_screen_var_distance_0 = (query.walk_distance*1.65)/1000;",
+	  "variable.info_screen_var_distance_00 = (query.walk_distance*1.65)/100;",
+	  
+	  "variable.info_screen_var_speed_10 = query.ground_speed/10;",
+	  "variable.info_screen_var_speed_0 = query.ground_speed;",
+	  "variable.info_screen_var_speed_00 = query.ground_speed*10;",
+	  
+	  "variable.info_screen_var_fps_10 = math.round(0.1/query.delta_time);",
+	  "variable.info_screen_var_fps_0 = math.round(((0.1/query.delta_time)-math.round(0.1/query.delta_time))*10);",
+	  
+	  "variable.info_screen_var_tps_10 = query.skin_id/10;",
+	  "variable.info_screen_var_tps_0 = query.skin_id;",
+	  
+	  "variable.info_screen_var_light_10 = query.mark_variant/10;",
+	  "variable.info_screen_var_light_0 = query.mark_variant;",
+	  
+	  "variable.info_screen_var_day_1000 = query.day/1000;",
+	  "variable.info_screen_var_day_100 = query.day/100;",
+	  "variable.info_screen_var_day_10 = query.day/10;",
+	  "variable.info_screen_var_day_0 = query.day;",
+	  
+	  "variable.info_screen_var_hours_100 = math.floor(query.day/300);",
+	  "variable.info_screen_var_hours_10 = math.floor(query.day/30);",
+	  "variable.info_screen_var_hours_0 = math.floor(query.day/3);",
+	  "variable.info_screen_var_hours_00 = math.floor(query.day*2);",
+	  
+	  "variable.info_screen_var_chunknum_x_100 = math.abs(math.floor(query.position(0)/16)/100);",
+	  "variable.info_screen_var_chunknum_x_10 = math.abs(math.floor(query.position(0)/16)/10);",
+	  "variable.info_screen_var_chunknum_x_0 = math.abs(math.floor(query.position(0)/16));",
+	  "variable.info_screen_var_chunknum_x_neg = (math.floor(query.position(0)/16)) < 0;",
+	  "variable.info_screen_var_chunknum_z_100 = math.abs(math.floor(query.position(2)/16)/100);",
+	  "variable.info_screen_var_chunknum_z_10 = math.abs(math.floor(query.position(2)/16)/10);",
+	  "variable.info_screen_var_chunknum_z_0 = math.abs(math.floor(query.position(2)/16));",
+	  "variable.info_screen_var_chunknum_z_neg = (math.floor(query.position(2)/16)) < 0;",
+	  
+	  "variable.info_screen_var_nethercoords_x_1000 = math.abs(math.floor(query.position(0)/8)/1000);",
+	  "variable.info_screen_var_nethercoords_x_100 = math.abs(math.floor(query.position(0)/8)/100);",
+	  "variable.info_screen_var_nethercoords_x_10 = math.abs(math.floor(query.position(0)/8)/10);",
+	  "variable.info_screen_var_nethercoords_x_0 = math.abs(math.floor(query.position(0)/8));",
+	  "variable.info_screen_var_nethercoords_x_neg = (math.floor(query.position(0)/8)) < 0;",
+	  "variable.info_screen_var_nethercoords_z_1000 = math.abs(math.floor(query.position(2)/8)/1000);",
+	  "variable.info_screen_var_nethercoords_z_100 = math.abs(math.floor(query.position(2)/8)/100);",
+	  "variable.info_screen_var_nethercoords_z_10 = math.abs(math.floor(query.position(2)/8)/10);",
+	  "variable.info_screen_var_nethercoords_z_0 = math.abs(math.floor(query.position(2)/8));",
+	  "variable.info_screen_var_nethercoords_z_neg = (math.floor(query.position(2)/8)) < 0;",
+	  
+	  "variable.info_screen_var_overworldcoords_x_1000 = math.abs(math.floor(query.position(0)*8)/1000);",
+	  "variable.info_screen_var_overworldcoords_x_100 = math.abs(math.floor(query.position(0)*8)/100);",
+	  "variable.info_screen_var_overworldcoords_x_10 = math.abs(math.floor(query.position(0)*8)/10);",
+	  "variable.info_screen_var_overworldcoords_x_0 = math.abs(math.floor(query.position(0)*8));",
+	  "variable.info_screen_var_overworldcoords_x_neg = (math.floor(query.position(0)*8)) < 0;",
+	  "variable.info_screen_var_overworldcoords_z_1000 = math.abs(math.floor(query.position(2)*8)/1000);",
+	  "variable.info_screen_var_overworldcoords_z_100 = math.abs(math.floor(query.position(2)*8)/100);",
+	  "variable.info_screen_var_overworldcoords_z_10 = math.abs(math.floor(query.position(2)*8)/10);",
+	  "variable.info_screen_var_overworldcoords_z_0 = math.abs(math.floor(query.position(2)*8));",
+	  "variable.info_screen_var_overworldcoords_z_neg = (math.floor(query.position(2)*8)) < 0;",
+	  
+	  "variable.info_screen_var_nwcorner_x_10 = (query.position(0)-(math.floor(query.position(0)/16)*16))/10;",
+	  "variable.info_screen_var_nwcorner_x_0 = query.position(0)-(math.floor(query.position(0)/16)*16);",
+	  "variable.info_screen_var_nwcorner_z_10 = (query.position(2)-(math.floor(query.position(2)/16)*16))/10;",
+	  "variable.info_screen_var_nwcorner_z_0 = query.position(2)-(math.floor(query.position(2)/16)*16);",
+	  
+	  "variable.info_screen_var_timer_h_0 = math.floor(query.life_time/3600);",
+	  "variable.info_screen_var_timer_m_10 = math.floor(query.life_time/600);",
+	  "variable.info_screen_var_timer_m_0 = math.floor(query.life_time/60);",
+	  "variable.info_screen_var_timer_s_10 = math.floor(query.life_time/10);",
+	  "variable.info_screen_var_timer_s_0 = query.life_time;",
+	  "variable.info_screen_var_timer_ms_10 = math.floor(query.life_time*10);",
+	  "variable.info_screen_var_timer_ms_0 = math.floor(query.life_time*100);"
+	  //end addon pre_animation
+        ],
+        "animate": [
+          "root" , //add comma for addon
+	  
+	  //addon animate
+	  "chunk",
+	  {"animation_addon_game_info_model": "variable.info_screen_var_full_show"},
+	  {"animation_addon_game_info_model_ui": "variable.info_screen_var_ui_show"},
+	  {"animation_addon_game_info_model_ui_water": "variable.info_screen_var_ui_show && query.is_swimming"}
+	  //end addon animate
+        ]
+      },
+      "animations": {
+	//addon animations
+	"chunk": "animation.chunk.locate",
+	"animation_addon_game_info_model": "animation.addon_game_info_model",
+	"animation_addon_game_info_model_ui": "animation.addon_game_info_model_ui",
+	"animation_addon_game_info_model_ui_water": "animation.addon_game_info_model_ui_water"
+	//end addon animations
+      },
+      "render_controllers": [
+        { "controller.render.player.first_person": "variable.is_first_person" },
+        { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" },
+        { "controller.render.player.map": "variable.map_face_icon" } , //add comma for addon
+	
+	//addon render_controllers
+	{ "controller.render.chunk": "!variable.is_first_person && !variable.map_face_icon && !query.is_in_ui && (query.get_equipped_item_name(1) == 'firework_rocket' || query.get_equipped_item_name(1) == 'nautilus_shell')"	},
+	
+	{ "controller.render.info_screen_biome": 				"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_cardinal": 				"variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_clock_ampm": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_clock_colon": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_clock_h_0": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_clock_h_10": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_clock_m_0": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_clock_m_10": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_distance_10": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_distance_0": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_distance_00": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_distance_point": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_distance_unit": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_speed_10": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_speed_0": 				"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_speed_00": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_speed_point": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_speed_unit": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_fps_10": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_fps_0": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_fps_unit": 				"variable.info_screen_var_full_show" },
+	
+	//{ "controller.render.info_screen_tps_10": 				"variable.info_screen_var_full_show" },
+	//{ "controller.render.info_screen_tps_0": 				"variable.info_screen_var_full_show" },
+	//{ "controller.render.info_screen_tps_unit": 			"variable.info_screen_var_full_show" },
+	
+	{ "controller.render.info_screen_light_10": 			"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_light_0": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_light_unit": 			"variable.info_screen_var_full_show" },
+	
+	{ "controller.render.info_screen_day_1000": 			"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_day_100": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_day_10": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_day_0": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_day_unit": 				"variable.info_screen_var_full_show" },
+	
+	{ "controller.render.info_screen_hours_100": 			"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_hours_10": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_hours_0": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_hours_00": 				"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_hours_point": 			"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_hours_unit": 			"variable.info_screen_var_full_show" },
+	
+	{ "controller.render.info_screen_chunknum_x_100": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_x_10": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_x_0": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_x_neg": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_x_unit": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_z_100": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_z_10": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_z_0": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_z_neg": 		"variable.info_screen_var_full_show" },
+	{ "controller.render.info_screen_chunknum_z_unit": 		"variable.info_screen_var_full_show" },
+	
+	{ "controller.render.info_screen_nethercoords_x_1000": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_x_100": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_x_10": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_x_0": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_x_neg": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_x_unit": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_1000": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_100": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_10": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_0": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_neg": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nethercoords_z_unit": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_overworldcoords_x_1000": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_x_100": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_x_10": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_x_0": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_x_neg": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_x_unit": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_1000": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_100": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_10": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_0": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_neg": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_overworldcoords_z_unit": 	"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_nwcorner_x_10": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nwcorner_x_0": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nwcorner_x_unit": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nwcorner_z_10": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nwcorner_z_0": 			"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	{ "controller.render.info_screen_nwcorner_z_unit": 		"variable.info_screen_var_full_show || variable.info_screen_var_ui_show" },
+	
+	{ "controller.render.info_screen_timer_h_0": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_m_10": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_m_0": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_s_10": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_s_0": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_ms_10": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_ms_0": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_colon_1": 			"variable.info_screen_var_full_show_always" },
+	{ "controller.render.info_screen_timer_colon_2": 			"variable.info_screen_var_full_show_always" }
+	//end addon render_controllers
+      ]
+    }
+  }
+}

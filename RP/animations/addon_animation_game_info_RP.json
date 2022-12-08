@@ -1,0 +1,125 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.addon_game_info_model": {
+			"loop": true,
+			"bones": {
+				"chunknum_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"clock_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"distance_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"fps_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"nwcorner_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"speed_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"timer_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"biome_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"tps_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"light_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"day_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"hours_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"nethercoords_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"nethercoords_Screen2": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"overworldcoords_Screen1": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				},
+				"overworldcoords_Screen2": {
+					"position": [ "math.sin(query.walk_distance * 180.0)", "math.sin(query.walk_distance * 180.0)", 0.0 ]
+				}
+			}
+		},
+		"animation.addon_game_info_model_ui": {
+			"loop": true,
+			"bones": {
+				"clock_Screen1": {
+					"position": [ -41.5, -122, -275 ]
+				},
+				"distance_Screen1": {
+					"position": [ -3.5, -132, -275 ]
+				},
+				"speed_Screen1": {
+					"position": [ -7.5, -150.5, -275 ]
+				},
+				"nwcorner_Screen1": {
+					"position": [ -52.5, -90.5, -275 ]
+				},
+				"biome_Screen1": {
+					"position": [ 64.5, -204, -275 ]
+				},
+				"nethercoords_Screen1": {
+					"position": [ -35.5, -89, -275 ]
+				},
+				"nethercoords_Screen2": {
+					"position": [ 7.5, -79, -275 ]
+				},
+				"overworldcoords_Screen1": {
+					"position": [ -17.5, -77.5, -275 ]
+				},
+				"overworldcoords_Screen2": {
+					"position": [ 25.5, -67.5, -275 ]
+				}
+			}
+		},
+		"animation.addon_game_info_model_ui_water": {
+			"loop": true,
+			"bones": {
+				"cardinal_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"clock_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"distance_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"speed_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"nwcorner_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"biome_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"nethercoords_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"nethercoords_Screen2": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"overworldcoords_Screen1": {
+					"position": [ 0, -13.5, 0 ]
+				},
+				"overworldcoords_Screen2": {
+					"position": [ 0, -13.5, 0 ]
+				}
+			}
+		}
+	}
+}
